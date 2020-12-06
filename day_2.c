@@ -69,6 +69,7 @@ int main(int argc, char **argv) {
     // Print number of valid passwords
     printf("Number of valid passwords: %d\n", valid_passwords);
     fclose(file);
+    /* END PART TWO */
 
     return 0;
 }
