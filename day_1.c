@@ -1,3 +1,5 @@
+// TODO: Fix this whole code to get rid of duplicate outputs
+
 #include <stdio.h>
 #include <stdlib.h>
 
