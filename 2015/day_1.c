@@ -25,16 +25,17 @@ int main() {
 
         /* PART II */
         int basement = 0;
+        floor = 0;
         input = fopen("input.txt", "r");
         do{
             ++basement;
             instr = getc(input);
-            if(instr == '\(')
+            if((int)instr == 40)
                 ++floor;
             else if((int)instr == 41)
                 --floor;
             else;
-        }while(instr != EOF && floor != -1);
+        } while(instr != EOF && floor != -1);
         printf("%25s %4d\n", "Part II: Position", basement);
         fclose(input);
     }
